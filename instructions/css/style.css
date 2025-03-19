@@ -113,7 +113,7 @@ li {
   flex-direction: column;
   margin-left: 30px;
   margin-right: 10px;
-  height: 1250px;
+  height: 1550px;
   padding-bottom: 10px;
   background-color: #eee7e7;
   margin-bottom: 35px;
@@ -231,7 +231,7 @@ i {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 50px;
+
   opacity: 0;
 }
 .span1 {
@@ -248,7 +248,7 @@ span2 {
 }
 .caption::before {
   content: "";
-  border: 1em solid #fff;
+  border: 3px solide #fff;
   display: block;
   position: absolute;
   top: 3em;
@@ -333,10 +333,9 @@ nav .na {
   display: block;
 }
 .meatss {
-  width: 100%;
   object-fit: cover;
-  display: block;
 }
+
 .figs {
   margin: 0;
   position: relative;
@@ -376,7 +375,7 @@ span2 {
 }
 .captions::before {
   content: "";
-  border: 5px solid #fff;
+  border: 3px solid #fff;
   display: block;
   position: absolute;
   top: 0.5em;
@@ -394,34 +393,21 @@ span2 {
   margin-top: 15px;
 }
 
-.meat {
-  width: 100%;
-  object-fit: cover;
-  display: block;
-}
 .figss {
   margin: 0;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 
   width: 100%;
 }
 .captionss {
   background-color: rgba(0, 0, 0, 0.5);
-  display: block;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  position: absolute;
+
+  top: 0.5em;
+  bottom: 0.5em;
+  right: 0.5em;
+  left: 0.5em;
   color: white;
 
   font-size: 50px;
@@ -442,10 +428,23 @@ span2 {
 .captionss::before {
   content: "";
   border: 5px solid #fff;
-  display: block;
+
   position: absolute;
-  top: 0.5em;
-  right: 0.5em;
-  bottom: 0.5em;
-  left: 0.5em;
+  top: 3em;
+  right: 3em;
+  bottom: 3em;
+  left: 3em;
+}
+.ok {
+  width: 600px;
+  margin-bottom: 30px;
+}
+.deux {
+  margin: 0 auto;
+  width: 600px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.right {
 }
